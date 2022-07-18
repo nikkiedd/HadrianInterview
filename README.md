@@ -4,7 +4,7 @@
  <li> I looked up the documentation of the NTP protocol and the differences between versions.</li>
  <li> I searched for ways to communicate with an NTP server in Python. Found two:
   <ul>
-   <li> The [NTP library (ntplib)](https://pypi.org/project/ntplib/) </li>
+   <li> The [NTP library-ntplib](https://pypi.org/project/ntplib/) </li>
    <li> Crafting a packet manually and sending it to the server</li>
   </ul>
  </li>
