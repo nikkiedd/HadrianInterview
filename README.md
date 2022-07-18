@@ -4,12 +4,12 @@
  <li> I looked up the documentation of the NTP protocol and the differences between versions.</li>
  <li> I searched for ways to communicate with an NTP server in Python. Found two:
   <ul>
-   <li> The [NTP library (ntplib)](https://pypi.org/project/ntplib/)</li>
+   <li> The [NTP library (ntplib)](https://pypi.org/project/ntplib/) </li>
    <li> Crafting a packet manually and sending it to the server</li>
   </ul>
  </li>
  <li> I tried using the NTP library at first, because it seemed more simple.</li>
- <li> Upon sending a few requests with it and checking [the source code](https://github.com/cf-natali/ntplib),
+ <li> Upon sending a few requests with it and checking [the source code](https://github.com/cf-natali/ntplib) ,
       I noticed that the version in the response header is the same as the one sent in the request.
  </li>
  <li> Since there are only 4 NTP versions (and they are backwards-compatible), I decided that, for each IP, I will try to send a 
