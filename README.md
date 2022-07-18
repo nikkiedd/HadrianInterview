@@ -1,6 +1,6 @@
 # Technical Assessment
  <h2>Starting it</h2>
- Run using __python main.py__ in the project's directory. Put your IPs of interent in the **ip_addresses.txt** file. As it is now,
+ Run using ***python main.py*** in the project's directory. Put your IPs of interent in the **ip_addresses.txt** file. As it is now,
  this file contains the IPs of some public NTP servers taken from the internet.
  <h2>Thinking process</h2>
 <ol>
